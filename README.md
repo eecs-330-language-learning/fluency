@@ -1,8 +1,9 @@
 # Articulate
-Articulate is a 
+Articulate is a
 Created for EECS 330 - Human Computer Interactions at Northwestern University.
-Made for 
+Made for
 
+test edit 1
 ### Problem Statement
 
 One of the greatest problems regarding language acquisition is getting more individuals to learn a newlanguage fast and efficiently. When we were children, we were able to pick up a language naturally in a few months, so this wasn’t a problem. However, this is not the case
