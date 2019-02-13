@@ -2,10 +2,9 @@
 Articulate is a
 Created for EECS 330 - Human Computer Interactions at Northwestern University.
 Made for
-<<<<<<< HEAD
-=======
+
 Test Edit
->>>>>>> master
+
 
 test edit 1
 ### Problem Statement
