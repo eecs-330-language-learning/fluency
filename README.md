@@ -1,7 +1,8 @@
 # Articulate
-Articulate is a 
+Articulate is a
 Created for EECS 330 - Human Computer Interactions at Northwestern University.
-Made for 
+Made for
+Test Edit
 
 ### Problem Statement
 
