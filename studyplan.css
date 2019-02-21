@@ -1,0 +1,52 @@
+.study-button{
+    font-size: 30px;
+    margin-right: 43px;
+    width: 20%;
+    background-color: #5C90DE;
+}
+
+.material-icons{
+    font-size: 30px;
+    margin-top: 8px; 
+}
+
+.set-study-button{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 390px;
+    margin-top: 80px;
+    background-color: #BDBA6E;
+}
+
+#user-profile{
+    font-size: 110px;
+    text-align: center;
+    margin-left: 37%;
+}
+
+#profile{
+    font-size: 45px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.question{
+    
+    font-size: 20px;
+}
+
+#language-set{
+    margin-top: 10px;
+    background-color: #E3E3DE;
+}
+
+#practice-set{
+ 
+    background-color: #625F60;
+    color: white;
+}
+
+#feedback{
+    font-style: italic;
+    text-align: center;
+}
