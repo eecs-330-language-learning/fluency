@@ -2,7 +2,9 @@
     font-size: 30px;
     margin-right: 43px;
     width: 20%;
-    background-color: #5C90DE;
+    background-color: #4E73DF;
+    color: white;
+    border-radius: 8px;
 }
 
 .material-icons{
@@ -13,10 +15,13 @@
 .set-study-button{
     text-align: center;
     font-size: 25px;
-    margin-left: 390px;
-    margin-top: 80px;
-    background-color: #BDBA6E;
+    margin-left: auto;
+    margin-top: auto;
+    background-color: #4E73DF;
+    color: white;
+    border-radius: 8px;
 }
+
 
 #user-profile{
     font-size: 110px;
