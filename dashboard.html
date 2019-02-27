@@ -250,18 +250,19 @@
               <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">John Doe</h6>
+                  <h6 class="m-0 font-weight-bold text-primary" id="User_name"></h6>
 
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
                   <div class="chart-pie pt-4 pb-2">
-                    <P id="profile">Welcome Back John!</P>
+                    <P id="profile">Welcome Back!</P>
                     <p><i id="user-profile" class="material-icons">contacts</i></p>
 
-                    <div id="profile_data">Japanese</div>
+                    <div class="language-kind" id="profile_data"></div>
                     <div id="profile_data">Intermediate</div>
-
+                    <div id="profile_data">Task:<i id="study_length"></i></div>
+                   
                     <canvas id="myPieChart"></canvas>
                   </div>
                   <div class="mt-4 text-center small">
@@ -342,6 +343,12 @@
   <!-- Page level custom scripts -->
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
+
+  <script>
+  document.getElementById("profile_data").innerHTML = localStorage.getItem("language");
+  document.getElementById("study_length").innerHTML = localStorage.getItem("time")+"minutes";
+  document.getElementById("User_name").innerHTML = localStorage.getItem("firstname")+" "+ localStorage.getItem("lastname");
+  </script>
 
 </body>
 
