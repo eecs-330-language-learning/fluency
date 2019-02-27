@@ -508,6 +508,46 @@ hr {
 
 }
 
+.practice_icon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 160px;
+	height: 120px;
+	border: 0.1rem solid #4e73df !important;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.grid-item {
+}
+
+.wotd {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 270px;
+	height: 160px;
+}
+
+.word {
+	text-align: center;
+	font-size: 3.5rem;
+}
+
+.meaning {
+	text-align:center;
+	font-size: 1rem;
+}
+
 
 .heading {
 	color: #9c4f7b;
@@ -10904,6 +10944,10 @@ a:focus {
   border-left: 0.25rem solid #4e73df !important;
 }
 
+.border-all-primary {
+	border: 0.25rem solid #4e73df !important;
+}
+
 .border-left-success {
   border-left: 0.25rem solid #1cc88a !important;
 }
@@ -10914,6 +10958,10 @@ a:focus {
 
 .border-left-warning {
   border-left: 0.25rem solid #f6c23e !important;
+}
+
+.border-all-warning {
+	border: 0.25rem solid #f6c23e !important;
 }
 
 .border-left-danger {
