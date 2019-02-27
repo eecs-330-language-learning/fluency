@@ -1,11 +1,12 @@
 .study-button{
     font-size: 30px;
     margin-right: 43px;
-    width: 20%;
+    width: auto;
     background-color: #4E73DF;
     color: white;
     border-radius: 8px;
 }
+
 
 .material-icons{
     font-size: 30px;
