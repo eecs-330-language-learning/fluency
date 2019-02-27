@@ -38,12 +38,12 @@
                 <div class="form-group-studyplan">
                     What language do you speak?
                     <span class="custom-dropdown big">
-                      <select>
-                        <option>English</option>
-                        <option>Spanish</option>
-                        <option>Japanese</option>
-                        <option>Chinese</option>
-                        <option>French</option>
+                      <select id="language-name">
+                        <option value="English">English</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="Japanese">Japanese</option>
+                        <option value="Chinese">Chinese</option>
+                        <option value="French">French</option>
                     </select>
                 </span>
                 </div>
@@ -62,7 +62,10 @@
                 </div>
 				<br>
                 <div class="form-group-studyplan">
-                    How many days would you like to practice?
+                   I want to practice 
+                   <div class="form-group-studyplan">
+                    <input class="form-control form-control-user" id="sessionLength" placeholder="25">
+                    </div> minutes every
                     <span class="custom-dropdown big">
                       <select>
                         <option>1 day</option>
@@ -75,13 +78,7 @@
                     </select>
                 </span>
                 </div>
-                <div class="form-row">
-
-                  How many minutes do you want to spend per session?
-                  <div class="form-group-studyplan">
-                  <input class="form-control form-control-user" id="sessionLength" placeholder="25">
-                  </div>
-                </div>
+                
 
                 <div class="form-row">
                   Practice Type:
@@ -98,7 +95,7 @@
                   <p><input type="checkbox"></p>
                 </div>
 
-                <a href="dashboard.html" class="btn btn-primary btn-user btn-block">
+                <a href="dashboard.html" class="btn btn-primary btn-user btn-block" onclick="getSelectValue ()">
                   Save
                 </a>
             </div>
@@ -116,6 +113,7 @@
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
 
+ <script src="study.js"></script>
 </body>
 
 </html>
