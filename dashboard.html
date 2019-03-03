@@ -48,13 +48,19 @@
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Profile</span></a>
       </li>
-	  
+
 	  <li class="nav-item active">
         <a class="nav-link" href="studyplan.html">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Study Plan</span></a>
       </li>
-	  
+
+      <li class="nav-item active">
+          <a class="nav-link" href="404.html">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Account</span></a>
+        </li>
+
 	  <li class="nav-item active">
         <a class="nav-link" href="index.html">
           <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -111,7 +117,7 @@
 
     </ul>
     <!-- End of Sidebar -->
-  
+
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -211,36 +217,20 @@
           <!-- Content Row -->
 
           <div class="row">
-
             <!-- Area Chart -->
             <div class="col-xl-8 col-lg-7">
               <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">What would you like to practice?</h6>
-                  <div class="dropdown no-arrow">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                    </a>
-                    <!-- <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Dropdown Header:</div>
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div> -->
-                  </div>
-                </div>
                 <!-- Card Body -->
-                <div class="card-body">
-                  <div class="chart-area">						
-						<div class="grid-container">
-							<p class="grid-item"> <a href="404.html"> <img class="practice_icon" src="./images/reading2.png" title="Reading"> </a> </p>
-							<p class="grid-item"> <a href="404.html"> <img class="practice_icon" src="./images/listening.png" title="Listening"> </a> </p>
-							<p class="grid-item"> <a href="404.html"> <img class="practice_icon" src="./images/speaking.png" title="Speaking"> </a> </p>
-							<p class="grid-item"> <a href="404.html"> <img class="practice_icon" src="./images/test.png" title="Take A Test!"> </a> </p>
-						</div>						
-                    </div>
+                <div class="card-body2">
+                  <div class="chart-area">
+						         <div class="grid-container">
+							        <a href="404.html" style="text-decoration : none;"> <img class="practice_icon" src="./images/reading1.png" title="Reading"> <div class="grid-item">Reading</div></a>
+						          <a href="404.html" style="text-decoration : none;"> <img class="practice_icon" src="./images/listening.png" title="Listening"> <div class="grid-item">Listening</div></a>
+                      <a href="404.html" style="text-decoration : none;"> <img class="practice_icon" src="./images/speaking.png" title="Speaking"> <div class="grid-item">Speaking</div></a>
+							        <a href="404.html" style="text-decoration : none;"> <img class="practice_icon" src="./images/atom.png" title="Take A Test!"> <div class="grid-item">Test</div></a>
+						         </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -262,7 +252,7 @@
                     <div class="language-kind" id="profile_data"></div>
                     <div id="profile_data">Intermediate</div>
                     <div id="profile_data">Task:<i id="study_length"></i></div>
-                   
+
                     <canvas id="myPieChart"></canvas>
                   </div>
                   <div class="mt-4 text-center small">
