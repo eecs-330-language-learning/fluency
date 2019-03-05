@@ -1,6 +1,3 @@
-
-
-
 function getSelectValue ()
  {
  var language_name = document.getElementById("language-name").value;
