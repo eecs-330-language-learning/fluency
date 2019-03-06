@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <link rel="icon" type="image/png" href="./images/hummingbird.png">
   <title>Articulate | Set Study Plan</title>
 
@@ -22,21 +19,18 @@
 </head>
 
 <body class="bg-gradient-primary">
-
   <div class="container">
     <div class="card o-hidden border-0 shadow-lg my-5">
       <div class="card-body p-0">
-
             <div class="p-5">
               <div class="text-center">
                 <a href="dashboard.html">
                 <img class="logo" src="./images/articulate logo.png" style="margin-bottom:20px">
               </a>
-              <!--  <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1> -->
               </div>
               <form class="user">
                 <div class="form-group-studyplan">
-                    What language do you speak?
+                    I speak 
                     <span class="custom-dropdown big">
                       <select id="language-name">
                         <option value="English">English</option>
@@ -47,9 +41,8 @@
                     </select>
                 </span>
                 </div>
-				<br>
                 <div class="form-group-studyplan">
-                    What language do you want to learn?
+                    and I want to learn
                     <span class="custom-dropdown big">
                       <select>
                         <option>English</option>
@@ -57,45 +50,41 @@
                         <option>Japanese</option>
                         <option>Chinese</option>
                         <option>French</option>
-                    </select>
-                </span>
+                      </select>
+					</span>
                 </div>
 				<br>
-                <div class="form-group-studyplan">
-                   I want to practice 
-                   <div class="form-group-studyplan">
-                    <input class="form-control form-control-user" id="sessionLength" placeholder="25">
-                    </div> minutes every
-                    <span class="custom-dropdown big">
-                      <select>
-                        <option>1 day</option>
-                        <option>7 days</option>
-                        <option>14 days</option>
-                        <option>30 days</option>
-                        <option>90 days</option>
-                        <option>180 days</option>
-                        <option>365 days</option>
-                    </select>
-                </span>
-                </div>
-                
-
                 <div class="form-row">
-                  Practice Type:
-                  <div class="form-group-studyplan">
-                  <p><input type="checkbox"><label>Reading</label></p>
-                  <p><input type="checkbox"><label>Listening</label> </p>
-                  <p><input type="checkbox"><label>Speaking</label> </p>
-                </div>
-
+                   I want to practice my: 
+				   <div class="form-group-studyplan">
+					<p><input type="checkbox"><label class="sp-check">Reading </label> </p>
+					<p><input type="checkbox"><label class="sp-check">Listening</label> </p>
+					<p><input type="checkbox"><label class="sp-check">Speaking</label> </p>
+				   </div> for
+				   <div class="form-group-studyplan">
+                    <!-- <input class="form-control form-control-user" id="sessionLength" placeholder="25"> -->
+					<span class="duration-select">
+						<select>
+							<option> 5 </option>
+							<option> 10 </option>
+							<option> 15 </option>
+							<option> 20 </option>
+							<option> 30 </option>
+							
+						</select>
+					</span>
+                   </div> minutes every day
                 </div>
                 <div class="form-row">
-                  Apply feedback from my test results:
                   <div class="form-group-studyplan">
-                  <p><input type="checkbox"></p>
+                  <input type="checkbox">
+				  Apply feedback from my test results
+				  <div class="info-test-results">
+					(use your placement test results to provide appropriate content)
+				  </div>	
                 </div>
 
-                <a href="dashboard.html" class="btn btn-primary btn-user btn-block" onclick="getSelectValue ()">
+                <a href="dashboard.html" class="btn btn-articulate btn-user btn-block" onclick="getSelectValue()">
                   Save
                 </a>
             </div>
@@ -118,61 +107,3 @@
 
 </html>
 
-
-
-<!-- <html>
-<header>
-   <title>Study Plan</title>
-   <link rel="stylesheet" type="text/css" href="studyplan.css"/>
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-</header>
-<body>
-  <div id="language-set">
-<p class="question">1.What language do you speak?</p>
-<lable>Language:</lable>
-<select>
-  <option>English</option>
-  <option>Spanish</option>
-  <option>Chinese</option>
-  <option>Japanese</option>
-  <option>Russian</option></select>
-  <p></p>
-
-  <lable class="question">2.What language do you want to learn?</lable>
-  <select>
-    <option>English</option>
-    <option>Spanish</option>
-    <option>Chinese</option>
-    <option>Japanese</option>
-    <option>Russian</option></select>
-    <p></p> </div>
-
-    <div id="practice-set">
-    <lable class="question">1.How long is your study period?</lable>
-    <select>
-      <option>1 day</option>
-      <option>3 day</option>
-      <option>5 day</option>
-      <option>1 week</option>
-      </select>
-      <p></p>
-
-      <lable class="question">2.Study length per period:</lable>
-      <input value="5">
-      <select>
-        <option>minutes</option>
-        <option>hours</option></select>
-        <p></p>
-<p class="question">3.Practice Type</p>
-<p><input type="checkbox"><label>Reading</label></p>
-<p><input type="checkbox"><label>Listening</label> </p>
-<p><input type="checkbox"><label>Speaking</label> </p>
-<p></p></div>
-
-<div id="feedback">
-<p ><input type="checkbox"> Apply feedback from my test results </p>
-
-<button>Submit</button></div>
-</body>
-</html> -->

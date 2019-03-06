@@ -2284,6 +2284,7 @@ textarea.form-control {
   margin-bottom: 1rem;
   display: inline-block;
   text-align: center;
+  padding-right: 5px;
 
 }
 .form-text {
@@ -2744,6 +2745,11 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #4e73df;
   border-color: #4e73df;
+}
+
+.btn-articulate {
+	color: #000000;
+	background-color: #c4dcfb;
 }
 
 .btn-primary:hover {
@@ -10825,6 +10831,21 @@ a:focus {
   background-size: cover;
 }
 
+.bg-gradient-primary-content {
+  background-color: #c4dcfb;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #c4dcfb), to(#c4dcfb));
+  background-image: linear-gradient(180deg, #c4dcfb 10%, #c4dcfb 100%);
+  background-size: cover;
+}
+
+.bg-gradient-primary-sidebar {
+  background-color: #9c4f7b;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #9c4f7b), to(#9c4f7b));
+  background-image: linear-gradient(180deg, #9c4f7b 10%, #9c4f7b 100%);
+  background-size: cover;
+}
+	
+
 .bg-gradient-success {
   background-color: #1cc88a;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #1cc88a), to(#13855c));
@@ -11598,6 +11619,11 @@ a:focus {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.sp-check {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 .btn-circle {
   border-radius: 100%;
   height: 2.5rem;
@@ -11762,7 +11788,8 @@ form.user .custom-checkbox.small label {
 form.user .form-control-user {
   font-size: 0.8rem;
   border-radius: 10rem;
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
+  margin-left: 5px;
 }
 
 form.user .btn-user {
@@ -11851,6 +11878,10 @@ form.user .btn-user {
   width: 12.5rem;
 }
 
+.info-test-results {
+	font-size: 10px;
+}
+
 .custom-dropdown {
   position: relative;
   display: inline-block;
@@ -11858,11 +11889,21 @@ form.user .btn-user {
   margin: 10px; /* demo only */
 }
 
+.duration-select {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.duration-select select {
+	background-color: #c4dcfb;
+	color: #000000;
+}
+
 .custom-dropdown select {
-  background-color: #4e73df;
-  color: #fff;
+  background-color: #c4dcfb;
+  color: #000000;
   font-size: inherit;
-  padding: .5em;
+  padding: .25em;
   padding-right: 2.5em;
   border: 0;
   margin: 0;
