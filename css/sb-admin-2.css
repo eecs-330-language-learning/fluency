@@ -573,6 +573,11 @@ mark,
   background-color: #fcf8e3;
 }
 
+.small-image {
+	width: 160px;
+	height: 40px;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -7138,6 +7143,10 @@ button.bg-dark:focus {
   background-color: #fff !important;
 }
 
+.bg-blue {
+	background-color: #c4dcfb;
+}
+
 .bg-transparent {
   background-color: transparent !important;
 }
@@ -10956,6 +10965,10 @@ a:focus {
 
 .text-gray-900 {
   color: #3a3b45 !important;
+}
+
+.text-purple-300 {
+	color: #9c4f7b;
 }
 
 .icon-circle {
