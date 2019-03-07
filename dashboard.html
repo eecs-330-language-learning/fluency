@@ -19,7 +19,11 @@
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.css" rel="stylesheet">
-
+  <style>
+      #newword{
+        text-align: center;
+     }
+      </style>
 </head>
 
 <body id="page-top">
@@ -51,9 +55,9 @@
         </a>
 		<div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-transparent collapse-inner rounded">
-            <p class="collapse-item">John Doe</p>
-            <p class="collapse-item">Japanese</p>
-            <p class="collapse-item">20 minutes a day</p>
+            <p id="UserName" class="collapse-item">John Doe</p>
+            <p id="LanguageName" class="collapse-item">Japanese</p>
+            <p id="StudyTime" class="collapse-item">20 minutes a day</p>
           </div>
         </div>
       </li>
@@ -488,7 +492,8 @@
 					<div class="col-auto">
 					  <div class="h5 font-weight-bold text-gray-800 word">金魚</div>
 					  <div class="h5 font-weight-bold text-gray-800 meaning">きんぎょう</div>
-					  <div class="h5 font-weight-bold text-gray-800 meaning">(goldfish)</div>
+            <div id="newword"><a class="btn btn-articulate btn-user btn-block" type="button" onclick="wordMeaning()">Click to show the meaning</a></div>
+					  
                     </div>
 					
                   </div>
@@ -660,7 +665,11 @@
       </div>
     </div>
   </div>
-
+<script>
+document.getElementById("UserName").innerHTML=localStorage.getItem("firstname")+" "+localStorage.getItem("lastname");
+document.getElementById("LanguageName").innerHTML=localStorage.getItem("language");
+document.getElementById("StudyTime").innerHTML=localStorage.getItem("time");
+</script>
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -677,7 +686,7 @@
   <!-- Page level custom scripts -->
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
-
+  <script src="study.js"></script>
 </body>
 
 </html>
