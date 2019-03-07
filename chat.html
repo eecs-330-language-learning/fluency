@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="dist/jquery.convform.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<link rel="stylesheet" type="text/css" href="studyplan.css"/>
+	<link href="css/sb-admin-2.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="./images/hummingbird.png">
+	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+
+	<title>Articulate | Community</title>
+</head>
+<body>
+	<div>
+			<ul class="navbar-nav bg-gradient-primary-sidebar sidebar sidebar-dark accordion" id="accordionSidebar">
+
+					<!-- Sidebar - Brand -->
+					<a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+					  <div class="sidebar-brand-icon rotate-n-15">
+						<!-- <i class="fas fa-laugh-wink"></i> -->
+						<img src="./images/hummingbird.png">
+					  </div>
+					  <!-- <div class="sidebar-brand-text mx-3">SB Admin</div>-->
+					  <img class="small-image sidebar-brand-text" src="./images/articulate logo.png">
+					</a>
+
+					<!-- Divider -->
+					<hr class="sidebar-divider my-0">
+
+					<!-- Nav Item - Dashboard -->
+					<li class="nav-item active">
+							  <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseTwo">
+						<i class="fas fa-fw fa-user"></i>
+						<span>Friends</span>
+					  </a>
+					  <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+						<div class="bg-transparent collapse-inner rounded">
+						  <p class="collapse-item">John</p>
+						  <p class="collapse-item">Emily</p>
+						</div>
+					  </div>
+					</li>
+
+					<!-- Divider -->
+					<hr class="sidebar-divider">
+
+					<!-- Heading -->
+					<!-- <div class="sidebar-heading">
+					  Interface
+					</div> -->
+
+					<!-- Nav Item - Pages Collapse Menu -->
+					<li class="nav-item">
+					  <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+						<i class="fas fa-fw fa-graduation-cap"></i>
+						<span>Groups</span>
+					  </a>
+					  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+						<div class="bg-transparent py-2 collapse-inner rounded">
+						  <!-- <h6 class="collapse-header">Custom Components:</h6> -->
+						  <a class="collapse-item" href="404.html">France learning group</a>
+						  <a class="collapse-item" href="404.html">Japanese learning group</a>
+						</div>
+					  </div>
+					</li>
+
+					<!-- Nav Item - Utilities Collapse Menu -->
+
+
+					<li class="nav-item">
+					  <a class="nav-link collapsed" href="404.html">
+
+						  <span><i class="material-icons">add</i>Add friend/group</span>
+					  </a>
+					</li>
+
+					<!-- Divider -->
+					<hr class="sidebar-divider">
+
+					<li class="nav-item">
+					  <a class="nav-link collapsed" href="dashboard.html">
+
+						 <i class="material-icons">arrow_back</i> <span>back</span>
+					  </a>
+					</li>
+					<hr class="sidebar-divider d-none d-md-block">
+
+					<!-- Sidebar Toggler (Sidebar) -->
+					<div class="text-center d-none d-md-inline">
+					  <button class="rounded-circle border-0" id="sidebarToggle"></button>
+					</div>
+
+				  </ul>
+	</div>
+	<section id="demo">
+		<div class="vertical-align">
+				<div class="container">
+						<div class="row">
+
+								<div class="col-sm-6 col-sm-offset-3 col-xs-offset-0">
+
+										<div class="card no-border">
+											<div class="logo">
+												<a href="dashboard.html" class="logo">
+												<img class="logo" src="./images/articulate logo.png">
+											</a>
+											</div>
+											<div class="chat_title">Japanese learning group</div>
+												<div id="chat" class="conv-form-wrapper">
+
+													<input type="text" data-conv-question="Hi! How are you?">
+												  <input type="text"  name="name" data-conv-question="I'm relatively new to this, so I thought I'd introduce myself. My name is Elijah and I'm from Chicago. What's your name?">
+													<input type="text" data-conv-question="Pleasure to meet you! I speak English and German, and I'm currently learning French and Japanese." data-no-answer="true">
+													<input type="text" data-conv-question="However I'm leaning more towards Japanese, which is why I'm in this group. What about you?">
+														<input type="text" data-conv-question="That's cool. Who's your favorite artist?">
+														<input type="text" data-conv-question="I like your choice. What's your favorite genre?">
+														<input type="text" data-conv-question="Cool. I don't know where the others are, but I guess we can meet later with them and practice japanese.">
+														<input type="text" data-conv-question="Well, I have to leave now but we can talk more later. Bye" data-no-answer="true">
+														<input type="text" data-conv-question="It was nice meeting you btw :)">
+														<input type="text" data-conv-question="bye">
+														<input type="text" data-conv-question="---------CHAT HAS ENDED---------">
+
+
+												 </div>
+
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+</section>
+<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="dist/autosize.min.js"></script>
+<script type="text/javascript" src="dist/jquery.convform.js"></script>
+
+<script>
+	function google(stateWrapper, ready) {
+		window.open("https://google.com");
+		ready();
+	}
+	function bing(stateWrapper, ready) {
+		window.open("https://bing.com");
+		ready();
+	}
+	var rollbackTo = false;
+	var originalState = false;
+	function storeState(stateWrapper, ready) {
+		rollbackTo = stateWrapper.current;
+		console.log("storeState called: ",rollbackTo);
+		ready();
+	}
+	function rollback(stateWrapper, ready) {
+		console.log("rollback called: ", rollbackTo, originalState);
+		console.log("answers at the time of user input: ", stateWrapper.answers);
+		if(rollbackTo!=false) {
+			if(originalState==false) {
+				originalState = stateWrapper.current.next;
+					console.log('stored original state');
+			}
+			stateWrapper.current.next = rollbackTo;
+			console.log('changed current.next to rollbackTo');
+		}
+		ready();
+	}
+	function restore(stateWrapper, ready) {
+		if(originalState != false) {
+			stateWrapper.current.next = originalState;
+			console.log('changed current.next to originalState');
+		}
+		ready();
+	}
+</script>
+<script>
+	jQuery(function($){
+		convForm = $('#chat').convform({selectInputStyle: 'disable'});
+		console.log(convForm);
+	});
+</script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="js/sb-admin-2.min.js"></script>
+
+<!-- Page level plugins -->
+<script src="vendor/chart.js/Chart.min.js"></script>
+
+<!-- Page level custom scripts -->
+<script src="js/demo/chart-area-demo.js"></script>
+<script src="js/demo/chart-pie-demo.js"></script>
+</body>
+</html>
