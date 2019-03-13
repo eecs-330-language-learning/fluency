@@ -147,6 +147,7 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -535,6 +536,16 @@ hr {
 }
 
 .logo {
+  position: relative;
+  top: -7px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 354px;
+  height: 87px;
+}
+
+.chatlogo {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -7188,7 +7199,8 @@ button.bg-dark:focus {
 }
 
 .bg-transparent {
-  background-color: transparent !important;
+  background-color: #4e73df;
+  opacity: 0.95;
 }
 
 .border {
