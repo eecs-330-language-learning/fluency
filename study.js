@@ -16,16 +16,16 @@ function wordMeaning ()
 function checkAnswer ()
 {
 	if (document.getElementById("opt1").checked) {
-		document.getElementById("answer").innerHTML="correct";
+		document.getElementById("answer").innerHTML="Correct";
 		document.getElementById("answer").setAttribute("style", "background-color: green;");
 		document.getElementById("answer").setAttribute("class", "correctButton");
 		document.getElementById("reading_progress2").setAttribute("style", "width: 100%;");
 		document.getElementById("reading_progress1").innerHTML="100%";
-		
+
 	}
 	else {
-		document.getElementById("question1").innerHTML="try again";
-	}	
+		document.getElementById("question1").innerHTML="Try Again";
+	}
 }
 
 function selectWord(item)
@@ -34,14 +34,14 @@ function selectWord(item)
 		document.getElementById(item).setAttribute("style", "background-color: white; color: black;");
 	else
 		document.getElementById(item).setAttribute("style", "background-color: #4e73df; color: white;");
-		
+
 }
 
 
 function checkAnswer2 ()
 {
 	var items = ["item2", "item3", "item4", "item5"];
-		
+
 	if (document.getElementById("item1").style.backgroundColor == "rgb(78, 115, 223)")
 	{
 		for (var item in items) {
@@ -57,10 +57,8 @@ function checkAnswer2 ()
 		document.getElementById("listQuestion").setAttribute("class", "correctButton")
 		document.getElementById("listening_progress2").setAttribute("style", "width: 100%;");
 		document.getElementById("listening_progress1").innerHTML="100%";
-		
+
 	}
 	else
 		document.getElementById("listQuestion").innerHTML="try again"
 }
-
-		
