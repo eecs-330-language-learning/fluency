@@ -19,6 +19,8 @@
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.css" rel="stylesheet">
 
+  <script type="text/javascript" src="./js/index.js"></script>
+  
 </head>
 
 <body class="bg-gradient-primary">
@@ -57,7 +59,10 @@
                     <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password">
                   </div>
                 </div>
-                <a href="index.html" class="login100-form-btn" onclick="saveProfile ()" style="width:500px">
+				<div class="">
+                   <label class="error_msg" id="errormsg" placeholder="First Name">
+                </div>
+                <a href="#" class="login100-form-btn" onclick="createNewProfile()" style="width:500px">
                   Register Account
                 </a>
             </div>
@@ -77,6 +82,8 @@
 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
+  <script src="study.js"></script>
+  
   <script>
     function saveProfile (){
     var first_name = document.getElementById("exampleFirstName").value;
@@ -84,6 +91,7 @@
     localStorage.setItem("firstname", first_name);
     localStorage.setItem("lastname",last_name);
     }
+	
     </script>
 </body>
 

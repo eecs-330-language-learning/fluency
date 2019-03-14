@@ -17,6 +17,8 @@
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.css" rel="stylesheet">
+  
+  <script type="text/javascript" src="./js/index.js"></script>
 
 </head>
 
@@ -43,6 +45,9 @@
                   </div>
 
                   <form class="user">
+					<div class="">
+						<label class="error_msg">
+					</div>
                     <div class="form-group">
                       <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
                     </div>
@@ -50,18 +55,19 @@
                       <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
                     </div>
                     <div class="form-group">
-                      <div class="custom-control custom-checkbox small">
-                        <input type="checkbox" class="custom-control-input" id="customCheck">
-                        <label class="custom-control-label" for="customCheck">Remember Me</label>
+                      <div class="small">
+                        <!-- <input type="checkbox" class="custom-control-input" id="customCheck"> -->
+						<!-- <label class="custom-control-label" for="customCheck">Remember Me</label> -->
+						<label class="error_msg" id="errormsg">
                       </div>
-                    </div>
-                    <a href="dashboard.html" class="login100-form-btn">
+				    </div>
+                    <a href="#" class="login100-form-btn" onclick="login()">
                       Login
                     </a>
                   </form>
                   <hr>
                   <div class="text-center">
-                    <a class="small" href="forgot-password.html">Forgot Password?</a>
+                    <a class="small" href="404.html">Forgot Password?</a>
                   </div>
                   <div class="text-center">
                     <a class="small" href="register.html">Create an Account!</a>

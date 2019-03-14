@@ -19,6 +19,7 @@
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.css" rel="stylesheet">
+  <script type="text/javascript" src="./js/profile.js"></script>
   <style>
       #newword{
         text-align: center;
@@ -26,7 +27,7 @@
       </style>
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="populateProfileInfo()">
 
   <!-- Page Wrapper -->
   <div id="wrapper">
@@ -55,9 +56,9 @@
         </a>
 		<div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-transparent collapse-inner rounded">
-            <p id="UserName" class="collapse-item">John Doe</p>
-            <p id="LanguageName" class="collapse-item">Japanese</p>
-            <p id="StudyTime" class="collapse-item">20 minutes a day</p>
+            <p id="UserName" class="uname-nav-bar"></p>
+            <p id="Language" class="uname-nav-bar"></p>
+			<p id="tasks" class="uname-nav-bar"></p>
           </div>
         </div>
       </li>
@@ -79,8 +80,8 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-transparent py-2 collapse-inner rounded">
             <!-- <h6 class="collapse-header">Custom Components:</h6> -->
-            <a class="collapse-item" href="studyplan.html">Change current plan</a>
-            <a class="collapse-item" href="studyplan.html">Add a language</a>
+            <a class="collapse-item" href="studyplan.html">Create/ change plan</a>
+            <!-- <a class="collapse-item" href="studyplan.html">Add a language</a> -->
           </div>
         </div>
       </li>
@@ -685,9 +686,7 @@
     </div>
   </div>
 <script>
-document.getElementById("UserName").innerHTML=localStorage.getItem("firstname")+" "+localStorage.getItem("lastname");
-document.getElementById("LanguageName").innerHTML=localStorage.getItem("language");
-document.getElementById("StudyTime").innerHTML=localStorage.getItem("time");
+
 </script>
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>

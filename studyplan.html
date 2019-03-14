@@ -45,11 +45,11 @@
                     and I want to learn
                     <span class="custom-dropdown big">
                       <select id="languagename">
-                        <option value="English">English</option>
+                        <option value="French">French</option>
                         <option value="Spanish">Spanish</option>
                         <option value="Japanese">Japanese</option>
                         <option value="Chinese">Chinese</option>
-                        <option value="French">French</option>
+                        <option value="English">English</option>
                       </select>
 					</span>
                 </div>
@@ -57,9 +57,9 @@
                 <div class="form-row">
                    I want to practice my:
 				   <div class="form-group-studyplan">
-					<p><input type="checkbox"><label class="sp-check">Reading </label> </p>
-					<p><input type="checkbox"><label class="sp-check">Listening</label> </p>
-					<p><input type="checkbox"><label class="sp-check">Speaking</label> </p>
+					<p><input type="checkbox" id="reading" checked="False"><label class="sp-check">Reading </label> </p>
+					<p><input type="checkbox" id="listening"><label class="sp-check">Listening</label> </p>
+					<p><input type="checkbox" id="speaking"><label class="sp-check">Speaking</label> </p>
 				   </div> for
 				   <div class="form-group-studyplan">
                     <!-- <input class="form-control form-control-user" id="sessionLength" placeholder="25"> -->
@@ -84,7 +84,7 @@
 				  </div>
                 </div>
 
-                <a href="dashboard.html" class="btn btn-articulate btn-user btn-block" onclick="getSelectValue()">
+                <a href="dashboard.html" class="btn btn-articulate btn-user btn-block" onclick="createStudyPlan()">
                   Save
                 </a>
               
