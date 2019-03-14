@@ -608,6 +608,11 @@ hr {
   color: white;
 }
 
+.image_size {
+	width: 130px;
+	height: 130px;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -617,7 +622,7 @@ hr {
 }
 
 .grid-item {
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 10px;
   display: block;
   text-align: center;

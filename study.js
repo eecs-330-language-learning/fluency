@@ -1,5 +1,5 @@
 function createStudyPlan () {
-	var language_name = document.getElementById("language-name").value;
+	var language_name = document.getElementById("languagename").value;
 	var study_length = document.getElementById("studyLength").value;
 	localStorage.setItem("language", language_name);
 	localStorage.setItem("studyTime", study_length);
