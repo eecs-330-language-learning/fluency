@@ -11377,6 +11377,12 @@ a:focus {
   font-weight: 700;
 }
 
+.uname-nav-bar {
+	color: white;
+	padding-left: 30px;
+	font-weight: 700;
+}
+
 .sidebar #sidebarToggle {
   width: 2.5rem;
   height: 2.5rem;
@@ -11863,6 +11869,13 @@ form.user .form-control-user {
   font-size: 0.8rem;
   border-radius: 10rem;
   padding: 1rem 1rem;
+  margin-left: 5px;
+}
+
+.error_msg {
+  border: hidden;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.2rem;
   margin-left: 5px;
 }
 
