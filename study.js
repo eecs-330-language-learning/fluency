@@ -1,12 +1,29 @@
-function getSelectValue ()
- {
- var language_name = document.getElementById("languagename").value;
- var study_length = document.getElementById("studyLength").value;
-localStorage.setItem("language", language_name);
-localStorage.setItem("time",study_length);
-}
+function createStudyPlan () {
+	var language_name = document.getElementById("language-name").value;
+	var study_length = document.getElementById("studyLength").value;
+	localStorage.setItem("language", language_name);
+	localStorage.setItem("studyTime", study_length);
 
-getSelectValue ();
+	console.log("here");
+	if (document.getElementById("reading").checked) {
+		localStorage.setItem("reading", "reading");		
+	}
+	else 
+		localStorage.setItem("reading", "");
+	
+	if (document.getElementById("listening").checked) {
+		localStorage.setItem("listening", "listening");		
+	}
+	else
+		localStorage.setItem("listening", "");
+	
+	if (document.getElementById("speaking").checked) {
+		localStorage.setItem("speaking", "speaking");		
+	}
+	else {
+		localStorage.setItem("speaking", "");
+	}	
+}
 
 function wordMeaning ()
 {
