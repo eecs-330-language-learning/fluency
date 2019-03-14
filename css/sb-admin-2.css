@@ -139,6 +139,13 @@
    color: white;
  }
 
+
+.box{
+     padding-top: 20px;
+     text-align: center;
+     padding-left: 100px;
+}
+
 *,
 *::before,
 *::after {
