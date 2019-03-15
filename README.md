@@ -41,9 +41,9 @@ alt="Paper Prototype Video" width="360" height="180" border="10"/> </a>
 
 The computer prototype phase took place over several weeks. Each week's goal was to finish one prototype which included one major new feature. After receiving feedback in class, we worked hard the following week to implement improvements before the next meetup. As you can see from the images below, Articulate went through significant improvement over the course of those few weeks.
 
-<a href="READMEResources\ComputerPrototype1.pdf"> <img src="READMEResources/Project6.PNG" alt="Computer Prototype 1" width="50%" height="50%" border="10"/> </a>
+<a href="READMEResources\ComputerPrototype1.pdf"> <img src="READMEResources/Project6.PNG" alt="Computer Prototype 1" width="75%" height="75%" border="10"/> </a>
 
-<a href="READMEResources\ComputerPrototype2.pdf"> <img src="READMEResources/Project7.PNG" alt="Computer Prototype 2" width="50%" height="50%" border="10"/> </a>
+<a href="READMEResources\ComputerPrototype2.pdf"> <img src="READMEResources/Project7.PNG" alt="Computer Prototype 2" width="75%" height="75%" border="10"/> </a>
 
 <a href="READMEResources\ComputerPrototype3.pdf"> <img src="READMEResources/Project8.PNG" alt="Computer Prototype 3" width="50%" height="50%" border="10"/> </a>
 
