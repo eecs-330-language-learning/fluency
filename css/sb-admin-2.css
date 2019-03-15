@@ -603,7 +603,7 @@ hr {
   transition: all 0.4s;
 }
 
-.practice_icon:hover:before {
+.practice_icon{
   opacity: 1;
   color: white;
 }
@@ -611,6 +611,8 @@ hr {
 .image_size {
 	width: 130px;
 	height: 130px;
+	opacity: 1;
+	color: white;
 }
 
 .grid-container {
