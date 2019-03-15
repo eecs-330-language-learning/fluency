@@ -33,19 +33,19 @@ The full user briefing as well as list of resolutions can be found [here](README
 Click on the image below to watch a video featuring user testing and improvements we made based off of that session.
 
 <a href="https://drive.google.com/file/d/1fPH0S7lrk7NNoAnddOxIsFyzFDHS3zNe/view?usp=sharing"> <img src="READMEResources/PaperPrototype.jpg"
-alt="Paper Prototype Video" width="240" height="180" border="10"/> </a>
+alt="Paper Prototype Video" width="360" height="180" border="10"/> </a>
 
-[![Paper Prototype Video](READMEResources/PaperPrototype.jpg)](https://drive.google.com/file/d/1fPH0S7lrk7NNoAnddOxIsFyzFDHS3zNe/view?usp=sharing)
+
 
 ### Computer Prototypes
 
 The computer prototype phase took place over several weeks. Each week's goal was to finish one prototype which included one major new feature. After receiving feedback in class, we worked hard the following week to implement improvements before the next meetup. As you can see from the images below, Articulate went through significant improvement over the course of those few weeks.
 
-[![Computer Prototype 1](READMEResources/Project6.PNG)](READMEResources\ComputerPrototype1.pdf)
+<a href="READMEResources\ComputerPrototype1.pdf"> <img src="READMEResources/Project6.PNG" alt="Computer Prototype 1" width="360" height="180" border="10"/> </a>
 
-[![Computer Prototype 2](READMEResources/Project7.PNG)](READMEResources\ComputerPrototype2.pdf)
+<a href="READMEResources\ComputerPrototype2.pdf"> <img src="READMEResources/Project7.PNG" alt="Computer Prototype 2" width="360" height="180" border="10"/> </a>
 
-[![Computer Prototype 3](READMEResources/Project8.PNG)](READMEResources\ComputerPrototype3.pdf)
+<a href="READMEResources\ComputerPrototype2.pdf"> <img src="READMEResources/Project7.PNG" alt="Computer Prototype 2" width="360" height="180" border="10"/> </a>
 
 ## Additional Resources
 
