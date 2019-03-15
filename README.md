@@ -4,13 +4,13 @@
 
 [Check out our live demo!](https://eecs-330-language-learning.github.io/articulate/dashboard.html)     
 
-Register for an account and sign in with your email and password. User data is only saved locally. 
-
 ## Screenshots
 
-[![Login Screen](READMEResources\Final1.jpg)](https://eecs-330-language-learning.github.io/articulate/)
+[![Login Screen](READMEResources/Final1.jpg)](https://eecs-330-language-learning.github.io/articulate/)
 
-[![Main Dashboard](READMEResources\Final1.jpg)](https://eecs-330-language-learning.github.io/articulate/dashboard.html)
+Register for an account and sign in with your email and password. User data is only saved locally. You can visit the login screen by clicking on the image.
+
+[![Main Dashboard](READMEResources/Final2.jpg)](https://eecs-330-language-learning.github.io/articulate/dashboard.html)
 
 ## Purpose
 
@@ -31,17 +31,17 @@ The very first iteration of Articulate was a simple, low-fidelity paper prototyp
 The full user briefing as well as list of resolutions can be found [here](READMEResources/PaperPrototyping.pdf).
 
 Click on the image below to watch a video featuring user testing and improvements we made based off of that session.
-[![Paper Prototype Video](READMEResources\PaperPrototype.jpg)](https://drive.google.com/file/d/1fPH0S7lrk7NNoAnddOxIsFyzFDHS3zNe/view?usp=sharing)
+[![Paper Prototype Video](READMEResources/PaperPrototype.jpg)](https://drive.google.com/file/d/1fPH0S7lrk7NNoAnddOxIsFyzFDHS3zNe/view?usp=sharing)
 
 ### Computer Prototypes
 
 The computer prototype phase took place over several weeks. Each week's goal was to finish one prototype which included one major new feature. After receiving feedback in class, we worked hard the following week to implement improvements before the next meetup. As you can see from the images below, Articulate went through significant improvement over the course of those few weeks.
 
-[![Computer Prototype 1](READMEResources\Project6.PNG)](READMEResources\ComputerPrototype1.pdf)
+[![Computer Prototype 1](READMEResources/Project6.PNG)](READMEResources\ComputerPrototype1.pdf)
 
-[![Computer Prototype 2](READMEResources\Project7.PNG)](READMEResources\ComputerPrototype2.pdf)
+[![Computer Prototype 2](READMEResources/Project7.PNG)](READMEResources\ComputerPrototype2.pdf)
 
-[![Computer Prototype 3](READMEResources\Project8.PNG)](READMEResources\ComputerPrototype3.pdf)
+[![Computer Prototype 3](READMEResources/Project8.PNG)](READMEResources\ComputerPrototype3.pdf)
 
 ## Additional Resources
 
@@ -58,6 +58,9 @@ Our final presentation can be found [here](https://docs.google.com/presentation/
 ## Developers
 
 Victor Aung (https://github.com/VictorAung)
+
 Lenin Estrada (https://github.com/R3CEPT0R)
+
 Samanvitha Sundar (https://github.com/tuesday0928)
+
 Yue Wang (https://github.com/YueWang9626)
