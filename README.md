@@ -1,8 +1,16 @@
 <img src="images/articulate logo.png"
      alt="Logo"
      style="float: left; height: 50%; width:50%;" />
-     
-[Check out our live demo!](https://eecs-330-language-learning.github.io/articulate/)     
+
+[Check out our live demo!](https://eecs-330-language-learning.github.io/articulate/dashboard.html)     
+
+Register for an account and sign in with your email and password. User data is only saved locally. 
+
+## Screenshots
+
+[![Login Screen](READMEResources\Final1.jpg)](https://eecs-330-language-learning.github.io/articulate/)
+
+[![Main Dashboard](READMEResources\Final1.jpg)](https://eecs-330-language-learning.github.io/articulate/dashboard.html)
 
 ## Purpose
 
@@ -12,18 +20,39 @@ Currently, Articulate is a fully functioning website with a small number of prac
 
 ## Problem & Motivation
 
-One of the greatest problems regarding language acquisition is getting more individuals to learn a new language fast and efficiently. When we were children, we were able to pick up a language naturally in a few months, so this wasn’t a problem. However, this is not the case once we mature. According to the Foreign Service Institute, it takes anywhere between 24 to 88 weeks on average to acquire a new language, assuming that the learner has an above average aptitude for learning languages, a classroom environment, time during the day, and is a native speaker of English [1]. It can take years of study and dedication in order to make the same strides as when we were infants. How then, can we keep users interested and motivated to learn? What could this mean for the world if such a task were to be accomplished? This is where the motivation comes from, for not only would there be a more globally connected population, but if successful, the system could also be expanded to other areas such as STEM or other general or specialized fields, and make intellectual endeavors a want instead of a must. This, in effect, would create a more passionate and educated population, and help in other areas to advance society as a whole. Additionally, the platform would be completely free, meaning that individuals, regardless of economic status, would be able to learn without a financial barrier and whenever is most convenient for them. 
-
+One of the greatest problems regarding language acquisition is getting more individuals to learn a new language fast and efficiently. Find the full project proposal [here](READMEResources/ProblemStatement.pdf).
 
 ## Development Process
 
-## Components
+### Paper Prototype
 
-### User Profiles
+The very first iteration of Articulate was a simple, low-fidelity paper prototype. We used the paper prototype as a quick way to gather a lot of user feedback before we spent time doing any coding. This round of prototyping was perhaps the most important and set the foundation for what our app would eventually look like.
+
+The full user briefing as well as list of resolutions can be found [here](READMEResources/PaperPrototyping.pdf).
+
+Click on the image below to watch a video featuring user testing and improvements we made based off of that session.
+[![Paper Prototype Video](READMEResources\PaperPrototype.jpg)](https://drive.google.com/file/d/1fPH0S7lrk7NNoAnddOxIsFyzFDHS3zNe/view?usp=sharing)
+
+### Computer Prototypes
+
+The computer prototype phase took place over several weeks. Each week's goal was to finish one prototype which included one major new feature. After receiving feedback in class, we worked hard the following week to implement improvements before the next meetup. As you can see from the images below, Articulate went through significant improvement over the course of those few weeks.
+
+[![Computer Prototype 1](READMEResources\Project6.PNG)](READMEResources\ComputerPrototype1.pdf)
+
+[![Computer Prototype 2](READMEResources\Project7.PNG)](READMEResources\ComputerPrototype2.pdf)
+
+[![Computer Prototype 3](READMEResources\Project8.PNG)](READMEResources\ComputerPrototype3.pdf)
+
+## Additional Resources
 
 ### Branding
 
-### Social Interactions
+You can find our full branding philosophy [here](READMEResources/PaperPrototyping.pdf).
+Articulate follows Google's Material UI protocol.
+
+### Presentation
+
+Our final presentation can be found [here](https://docs.google.com/presentation/d/161vOqKf8RsRAYEyWmKp7KrW1504deFHgn3JLU3_I5xE/edit?usp=sharing).
 
 
 ## Developers
