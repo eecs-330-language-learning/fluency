@@ -6,11 +6,11 @@
 
 ## Screenshots
 
-[![Login Screen](READMEResources/Final1.jpg)](https://eecs-330-language-learning.github.io/articulate/)
+[![Login Screen](READMEResources/Final1.PNG)](https://eecs-330-language-learning.github.io/articulate/)
 
 Register for an account and sign in with your email and password. User data is only saved locally. You can visit the login screen by clicking on the image.
 
-[![Main Dashboard](READMEResources/Final2.jpg)](https://eecs-330-language-learning.github.io/articulate/dashboard.html)
+[![Main Dashboard](READMEResources/Final2.png)](https://eecs-330-language-learning.github.io/articulate/dashboard.html)
 
 ## Purpose
 
@@ -31,6 +31,10 @@ The very first iteration of Articulate was a simple, low-fidelity paper prototyp
 The full user briefing as well as list of resolutions can be found [here](READMEResources/PaperPrototyping.pdf).
 
 Click on the image below to watch a video featuring user testing and improvements we made based off of that session.
+
+<a href="https://drive.google.com/file/d/1fPH0S7lrk7NNoAnddOxIsFyzFDHS3zNe/view?usp=sharing"> <img src="READMEResources/PaperPrototype.jpg"
+alt="Paper Prototype Video" width="240" height="180" border="10"/> </a>
+
 [![Paper Prototype Video](READMEResources/PaperPrototype.jpg)](https://drive.google.com/file/d/1fPH0S7lrk7NNoAnddOxIsFyzFDHS3zNe/view?usp=sharing)
 
 ### Computer Prototypes
