@@ -4,6 +4,12 @@
 
 [Check out our live demo!](https://eecs-330-language-learning.github.io/articulate/dashboard.html)     
 
+## Purpose
+
+Articulate is a conceptual UI/UX design for a modern language learning platform. Articulate was created in 2019 for Northwestern University's EECS 330: Human Computer Interaction course.
+
+Currently, Articulate is a fully functioning website with a small number of practice questions. That being said, although the website is functional from a design perspective, it is not developed enough to use as an actual language learning platform. If you would like to develop Articulate further, feel free to contact us!
+
 ## Screenshots
 
 [![Login Screen](READMEResources/Final1.PNG)](https://eecs-330-language-learning.github.io/articulate/)
@@ -12,11 +18,6 @@ Register for an account and sign in with your email and password. User data is o
 
 [![Main Dashboard](READMEResources/Final2.png)](https://eecs-330-language-learning.github.io/articulate/dashboard.html)
 
-## Purpose
-
-Articulate is a conceptual UI/UX design for a modern language learning platform. Articulate was created in 2019 for Northwestern University's EECS 330: Human Computer Interaction course.
-
-Currently, Articulate is a fully functioning website with a small number of practice questions. That being said, although the website is functional from a design perspective, it is not developed enough to use as an actual language learning platform. If you would like to develop Articulate further, feel free to contact us!
 
 ## Problem & Motivation
 
