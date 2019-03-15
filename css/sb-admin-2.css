@@ -11872,12 +11872,13 @@ a:focus {
 .word_button {
 	background-color: white;
 	margin-top: 1rem;
-	border: solid;
-	border-width: 0.02rem;
+	border:  .07rem solid #4e73df;
+
 	margin-right: 0.5rem;
 	margin-left: 0.5rem;
 	padding: 0.4rem;
-	border-radius: 1rem;
+	border-radius: 2rem;
+
 	color: black;
 }
 
